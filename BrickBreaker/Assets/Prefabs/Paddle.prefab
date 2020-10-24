@@ -153,3 +153,4 @@ MonoBehaviour:
   minX: 1
   maxX: 15
   screenWidthInUnits: 16
+  bounceSoundClip: {fileID: 8300000, guid: fe192d26b9ba5294b99d860ad828bb76, type: 3}

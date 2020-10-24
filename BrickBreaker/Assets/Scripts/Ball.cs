@@ -13,15 +13,20 @@ public class Ball : MonoBehaviour {
 
     // Chached component refrences
     AudioSource myComponentAudioSource;
+    LevelManager levelManager;
 
     // Use this for initialization
     void Start() {
         myComponentAudioSource = GetComponent<AudioSource>();
+        levelManager = FindObjectOfType<LevelManager>();
     }
     // Update is called once per frame
     void Update() {
         LaunchOnMouseClick();
         ResetBallPosition();
+        if (levelManager.GetTotalNumberOfBlocks() == 0) {
+            gameStarted = false;
+        }
     }
 
     private void LaunchOnMouseClick() {
@@ -41,7 +46,7 @@ public class Ball : MonoBehaviour {
     }
     
     private void OnCollisionEnter2D(Collision2D collision) {
-        if (gameStarted) {
+        if (gameStarted && (collision.collider.gameObject != paddle)) {
             AudioClip audioClip = ballSounds[Random.Range(0, ballSounds.Length)];
             myComponentAudioSource.PlayOneShot(audioClip);
         }

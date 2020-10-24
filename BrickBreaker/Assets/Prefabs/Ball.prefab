@@ -140,11 +140,9 @@ MonoBehaviour:
   ballPositionOffsetY: 0.5
   paddle: {fileID: 0}
   ballSounds:
-  - {fileID: 8300000, guid: fe192d26b9ba5294b99d860ad828bb76, type: 3}
-  - {fileID: 8300000, guid: 07baf475cc750e442889032b108e276c, type: 3}
-  - {fileID: 8300000, guid: 75ffcec1a353d7b43a141770e112464b, type: 3}
-  - {fileID: 8300000, guid: 5cbeac2f8e788664c87b458fbaa63717, type: 3}
   - {fileID: 8300000, guid: c96e63b954a199844a33d34147e5768a, type: 3}
+  - {fileID: 8300000, guid: 5cbeac2f8e788664c87b458fbaa63717, type: 3}
+  - {fileID: 8300000, guid: 75ffcec1a353d7b43a141770e112464b, type: 3}
 --- !u!82 &-8267572511280165067
 AudioSource:
   m_ObjectHideFlags: 0
