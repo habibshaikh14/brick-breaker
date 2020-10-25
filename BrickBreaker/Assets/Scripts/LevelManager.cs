@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
@@ -10,20 +8,25 @@ public class LevelManager : MonoBehaviour
     // Cached references
     SceneLoader sceneLoader;
 
-    private void Start() {
+    private void Start()
+    {
         sceneLoader = FindObjectOfType<SceneLoader>();
     }
 
-    public int GetTotalNumberOfBlocks() {
+    public int GetTotalNumberOfBlocks()
+    {
         return totalNumberOfBlocks;
     }
-    public void IncrementBlockCount() {
+    public void IncrementBlockCount()
+    {
         totalNumberOfBlocks++;
     }
 
-    public void DecrementBlockCount() {
+    public void DecrementBlockCount()
+    {
         totalNumberOfBlocks--;
-        if (totalNumberOfBlocks == 0) {
+        if (totalNumberOfBlocks == 0)
+        {
             sceneLoader.LoadNextScene();
         }
     }

@@ -178,10 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdcf6d815d293be40aa5b0b4d11564e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 1.3
-  pointsPerBlock: 15
+  gameSpeed: 1
+  autoPlay: 0
   scoreText: {fileID: 1790512902}
-  currentScore: 0
 --- !u!1001 &7527943719276983063
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,51 +1,51 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class GameStatus : MonoBehaviour
 {
     // Configuration parameters
-    [Range(0.5f,2f)] [SerializeField] float gameSpeed = 1f;
-    [SerializeField] int pointsPerBlock = 15;
+    [Range(0f,5f)] [SerializeField] float gameSpeed = 1f;
+    [SerializeField] bool autoPlay;
     [SerializeField] TextMeshProUGUI scoreText;
 
     // State variables
-    private int maxScore = 0;
     private int currentScore = 0;
 
-    private void Awake() {
+    private void Awake()
+    {
         int gameStatusCount = FindObjectsOfType<GameStatus>().Length;
-        if (gameStatusCount > 1) {
+        if (gameStatusCount > 1)
+        {
             gameObject.SetActive(false);
             Destroy(gameObject);
-        } else {
+        }
+        else
+        {
             DontDestroyOnLoad(gameObject);
         }
     }
-    private void Start() {
+    private void Start()
+    {
         scoreText.text = currentScore.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         Time.timeScale = gameSpeed;
     }
 
-    public void AddToScore() {
+    public void AddToScore(int pointsPerBlock)
+    {
         currentScore += pointsPerBlock;
         scoreText.text = currentScore.ToString();
     }
 
-    public void ResetScores() {
-        currentScore = 0;
-        if (currentScore > maxScore) {
-            maxScore = currentScore;
-        }
+    public void ResetScores()
+    {
+        Destroy(gameObject);
     }
 
-    public int GetMaxScore() {
-        return maxScore;
+    public bool GetAutoPlay() {
+        return autoPlay;
     }
 }

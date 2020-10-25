@@ -101,7 +101,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.5
-  m_GravityScale: 0.1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: efccaeee7ce2204408b2a385f8c0b7b0, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -135,10 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abc180122e726149b8c99bb836fd02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushX: 2
-  pushY: 10
+  pushX: 5
+  pushY: 15
+  randomFactor: 1
   ballPositionOffsetY: 0.5
-  paddle: {fileID: 0}
+  paddle: {fileID: 8481045707849544244, guid: c468abf3c47071c4f99dd4027e6e4449, type: 3}
   ballSounds:
   - {fileID: 8300000, guid: c96e63b954a199844a33d34147e5768a, type: 3}
   - {fileID: 8300000, guid: 5cbeac2f8e788664c87b458fbaa63717, type: 3}
