@@ -12,8 +12,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -60,21 +58,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11846}
     - Class: 114
       Script: {instanceID: 12158}
     - Class: 114
       Script: {instanceID: 12214}
     - Class: 114
-      Script: {instanceID: 12910}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 13712}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14456}
     - Class: 114
-      Script: {instanceID: 15218}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -127,27 +125,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 12030}
+      Script: {instanceID: 12032}
     - Class: 114
       Script: {instanceID: 12050}
     - Class: 114
       Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 12910}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 14262}
     - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14446}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14456}
     - Class: 114
-      Script: {instanceID: 14784}
+      Script: {instanceID: 14790}
     - Class: 114
-      Script: {instanceID: 15218}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -206,27 +204,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 12030}
+      Script: {instanceID: 12032}
     - Class: 114
       Script: {instanceID: 12050}
     - Class: 114
       Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 12910}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 14262}
     - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14446}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14456}
     - Class: 114
-      Script: {instanceID: 14784}
+      Script: {instanceID: 14790}
     - Class: 114
-      Script: {instanceID: 15218}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -273,29 +271,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11846}
     - Class: 114
       Script: {instanceID: 12158}
     - Class: 114
       Script: {instanceID: 12214}
     - Class: 114
-      Script: {instanceID: 12910}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13712}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14112}
+      Script: {instanceID: 14116}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14456}
     - Class: 114
-      Script: {instanceID: 14864}
+      Script: {instanceID: 14872}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 15048}
     - Class: 114
-      Script: {instanceID: 15218}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -855,7 +853,7 @@ ScriptsOnlyBuild:
     className: Benchmark04
   - hash:
       serializedVersion: 2
-      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
@@ -993,7 +991,7 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: c60c5cba0d5ed4f4a018240d6339217f
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
@@ -1045,4 +1043,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 1.unity
   - Assets/Scenes/Level 2.unity
   - Assets/Scenes/Game Over.unity
-  playerPath: C:/Users/habib/My Games/BrickBreaker/BrickBreaker.exe
+  playerPath: C:/Users/habib/Git Repos/brick-breaker/Downloadables/BrickBreaker.exe
